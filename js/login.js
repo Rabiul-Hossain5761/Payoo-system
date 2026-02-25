@@ -9,7 +9,7 @@ document.getElementById('login-btn').addEventListener('click',function(){
 
     if(contactNumber === '01708716283' && numberPin==='1234'){
         alert('Login successful');
-        window.location.assign("/home.html");
+        window.location.assign("home.html");
 
     }
     else{
